@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #fecfef 100%);
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+#canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #ff6b9d;
+    font-size: clamp(16px, 4vw, 24px);
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    pointer-events: none;
+}
